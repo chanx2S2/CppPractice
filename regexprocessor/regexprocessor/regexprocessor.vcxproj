@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4288c9cc-c628-46df-aeed-baf3b0aca52b}</ProjectGuid>
-    <RootNamespace>cpp</RootNamespace>
+    <ProjectGuid>{63476d1b-9e0d-400c-8712-ae5c9514292e}</ProjectGuid>
+    <RootNamespace>regexprocessor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpp.cpp" />
-    <ClCompile Include="useful.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="useful.h" />
+    <ClCompile Include="regexprocessor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
